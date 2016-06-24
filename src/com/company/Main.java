@@ -11,9 +11,9 @@ public class Main {
     public static void main(String[] args) {
 
         List<MonsterAttributes> monsters = new ArrayList<>() ;
-        monsters.add(new MonsterAttributes("Rat",2,10,2));
-        monsters.add(new MonsterAttributes("Slime",3, 15, 5));
-        monsters.add(new MonsterAttributes("Goblin",6,25,8));
+        monsters.add(new MonsterAttributes("Rat",2,10,2,5));
+        monsters.add(new MonsterAttributes("Slime",3, 15, 5,10));
+        monsters.add(new MonsterAttributes("Goblin",6,25,8,20));
 
         Scanner scan = new Scanner(System.in);
 
