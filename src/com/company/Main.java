@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -7,6 +9,11 @@ public class Main {
     static int hp ;
     static int Mhp;
     public static void main(String[] args) {
+
+        List<MonsterAttributes> monsters = new ArrayList<>() ;
+        monsters.add(new MonsterAttributes("Rat",2,10,2));
+        monsters.add(new MonsterAttributes("Slime",3, 15, 5));
+        monsters.add(new MonsterAttributes("Goblin",6,25,8));
 
         Scanner scan = new Scanner(System.in);
 
