@@ -1,2 +1,2 @@
 # TextGame
-Fun so much fun
+Fun, so much fun
